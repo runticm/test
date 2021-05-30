@@ -102,7 +102,6 @@ sh login.sh
 Add another build step by selectting **docker build and publish**
 On **Repository Name** add: *XXXXXXXXXXXX.dkr.ecr.eu-central-1.amazonaws.com/tqtest-ecr-hello-world* (accordingly to your account)  
 On TAG add: *v_$BUILD_NUMBER*  
-On Docker registry URL add: *http://XXXXXXXXXXXX.dkr.ecr.eu-central-1.amazonaws.com/tqtest-ecr-hello-world* (accordingly to your account)  
 
 Add another build step by selecting **execute shell**. In the command field, type or paste the following text: (REGION accordingly to your account)  
 
@@ -150,7 +149,7 @@ On your PC do folowing
 `git push`  
 On Jenkins web page we see that job is triggered  
 Go to AWS, EC2 console, under **Load balancers**, find the one we created and under **Description** tab copy the **DNS name**  
-Paster the DNS name in the browser and the page should show up
+Paste the DNS name in the browser and the page should show up
 
 
   :) Hello world (:
