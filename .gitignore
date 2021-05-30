@@ -1,0 +1,34 @@
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+htmlcov
+test-output
+
+# VirtualEnv
+env
+.venv
+
+# Mac
+.DS_Store
+
+# Variables file
+.env
+
+# pyenv local python version marker
+.python-version
+
+# Python
+__pycache__
+*.pyc
+.pytest_cache
+requirements.txt
+
+# Visual studio code
+.vscode
+
+# SAM files
+.aws-sam
+*serverless-output.yml
+_build
+function.zip
