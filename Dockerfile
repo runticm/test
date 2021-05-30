@@ -5,4 +5,5 @@ FROM node:alpine
 COPY tq-workshop ./
 
 # start app
+EXPOSE 3000
 CMD ["npm", "start"]
