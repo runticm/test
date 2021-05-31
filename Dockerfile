@@ -1,17 +1,9 @@
-FROM node:10-alpine
+# pull the base image
+FROM node:alpine
 
-RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
+# add app
+COPY test1/ ./
 
-WORKDIR /home/node/app
-
-COPY test2/package*.json ./
-
-USER node
-
-RUN npm install
-
-COPY --chown=node:node . .
-
-EXPOSE 8080
-
-CMD [ "node", "app.js" ]
+# start app
+EXPOSE 3000
+CMD ["npm", "start"]
