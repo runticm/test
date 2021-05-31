@@ -2,7 +2,7 @@
 FROM node:alpine
 
 # add app
-COPY tq-workshop ./
+COPY . ./
 
 # start app
 EXPOSE 3000
