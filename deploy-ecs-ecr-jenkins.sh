@@ -15,10 +15,10 @@
 
 
 # General variables
-REGION="eu-west-1"
-PROFILE=""
+REGION="eu-central-1"
+PROFILE="default"
 # alias of KeyPair used to connect to instances
-KEYPAIR="tqtest-keypair"
+KEYPAIR="jenkins-test"
 
 # CloudFormation stack names
 ECSCLUSTER_STACKNAME="EcsClusterStack"
